@@ -17,6 +17,7 @@ public class ingresar extends javax.swing.JDialog {
     public ingresar(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -50,7 +51,7 @@ public class ingresar extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-      disposed;
+     this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
